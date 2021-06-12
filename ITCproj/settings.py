@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['sakshamoff.pythonanywhere.com', '127.0.0.1',]
 # Application definition
 
 INSTALLED_APPS = [
+    'myapi.apps.MyapiConfig',
     'ITSP.apps.ItspConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
