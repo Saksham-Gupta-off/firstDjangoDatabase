@@ -1,0 +1,10 @@
+{% extends 'ITSP/base.html' %}
+
+{% block content %}
+<h1 class="display-3 mb-3" align="center">Team Data</h1>
+<br>
+    {% for i in dbid %}
+            <div class="mb-4">{{ i|linebreaks }}
+           </div>
+        {% endfor %} </p>
+{% endblock %}
